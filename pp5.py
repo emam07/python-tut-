@@ -20,3 +20,15 @@ for i in range(num):
     print("full")
 
 print(f"The count of full is {num}")
+
+
+
+'''to check the range its format is this (start stop step)(1,10,1) its output is below'''
+
+for i in range (1,10,1):
+    print(i)
+
+'''now to tell you what step is see this output '''
+
+for i in range (1,10,2):
+    print(i)    
