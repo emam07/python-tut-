@@ -2,7 +2,8 @@ import tkinter as tk
 
 from tkinter import messagebox
 
-song = input("Enter the first song we listened to together: ")
+song = input("Enter the first song we listened to together: ").capitalize()
+print(song)
 song_words = song.split()
 
 root = tk.Tk()
